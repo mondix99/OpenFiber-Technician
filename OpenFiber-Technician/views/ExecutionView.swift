@@ -153,6 +153,7 @@ private final class LocationProvider: NSObject, CLLocationManagerDelegate {
 
     override init() {
         super.init()
+        // test
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
     }
